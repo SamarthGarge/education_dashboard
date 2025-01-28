@@ -1,0 +1,30 @@
+name: education
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  window_manager: ^0.4.3
+  font_awesome_flutter: ^10.8.0
+  table_calendar: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/profile_1.jpeg
+    - assets/profile_2.jpeg
+    - assets/profile_3.jpeg
+    - assets/profile_4.jpeg
+    - assets/profile_5.jpeg
+    - assets/profile_6.jpeg
